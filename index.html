@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    <link href="../../favicon.ico" rel="icon">
+
+    <title>My Profile</title>
+    <link crossorigin="anonymous" href=
+    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    integrity=
+    "sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+    rel="stylesheet"><!-- FontAwesome Icon Font -->
+    <link href=
+    "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    rel="stylesheet"><!-- LinearIcons Icon Font -->
+    <link href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css" rel=
+    "stylesheet"><!-- Main Stylesheet -->
+    <style>
+        /**
+ * =================================================================== 
+ *
+ *  ResumeTemplate v1.0 ClearCareer
+ *  url: clearcareer.ca
+ *  Design by: Iskender Piyale-Sheard
+ *  website: izzydoesizzy.com
+ *  Created 06-27-2016
+ *  Last Updated: 03-19-2017
+ *  ------------------------------------------------------------------
+ *  Table of Contents:
+
+ *  01. Global Styles
+ *  02. Intro
+ *  03. Social Icons
+ *  04. Icon Fonts
+ *  05. Section Styles
+ *  06. Timeline Styles
+ *  05. Footer
+ EXTRAS
+
+ * =================================================================== 
+ */
+
+/* 01. Basic Styles
+ * =================================================================== */
+
+ html {
+    overflow-x: hidden;
+ }
+ body {
+    font-family: 'Source Sans Pro', sans-serif;
+ }
+
+ h1 {
+    font-weight: bold;
+ }
+
+ h2 {
+ }
+
+ h5 {
+    font-weight: 600;
+ }
+
+ a {
+    cursor: pointer;
+    color: #1abc9c;
+    text-decoration: none;
+ }
+
+ a:hover {
+    text-decoration:none;
+    color: #1abc9c;
+    opacity: 0.9;
+ }
+
+ hr {
+    border-top: 5px solid #1abc9c;
+    width: 80px;
+    padding-bottom: 20px;
+ }
+
+
+ .colour-splash {
+    color: #1abc9c;
+ }
+
+ .section-primary span {
+    color: #1abc9c;
+    font-weight: bolder;
+    opacity: 1;
+ }
+
+
+
+
+
+
+
+
+/* 02. Intro
+ * =================================================================== */
+
+ .section-image {
+ 	background: #151515 url(https://images.unsplash.com/photo-1694796152188-497671aac01c?q=80&w=1971&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    display:table;
+ }
+
+ .img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #111111;
+    opacity: .7;
+ }
+
+ .intro {
+    vertical-align: middle;
+    text-align: center;
+    display:table-cell;
+    -webkit-transform: translateY(-2.1rem);
+    -ms-transform: translateY(-2.1rem);
+    transform: translateY(-2.1rem);
+}
+
+.intro .row {
+    margin-right: 0;
+    margin-left:0;
+}
+
+.intro h1 {
+    font-size: 84px;
+}
+
+.intro h5 {
+    color: #1abc9c;
+    font-size: 2.3rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.section-image span {
+    text-transform: uppercase;
+    font-size: 1.4em;
+    padding: 0 10px;
+    font-weight: 100;
+}
+
+.section-image h1 {
+    margin-top: 0;
+}
+
+.section-image p {
+    font-weight: lighter;
+    opacity: 0.9;
+}
+
+
+
+/* 03. Social Icons
+ * =================================================================== */
+
+.social {
+  margin: 0 10px;
+  padding-top: 1.3em;
+  text-align: center;
+  color: #fff;
+  font-size: 0.9em;
+}
+
+.social a {
+  color: white;
+  text-decoration:none;
+  padding: 2em;
+}
+
+.social a:hover{
+  opacity: 0.6;
+}
+
+.social-footer {
+    position: block;
+    padding: 15px;
+}
+
+.social-footer a {
+    color: white;
+    text-decoration: none;
+    padding: 0.6em;
+    font-size: 1.7em;
+}
+
+
+/* 04. Icon Font
+ * =================================================================== */
+
+ .lnr {
+    font-size: 4em !important;
+    color:#fff;
+ }
+
+/* 05. Section Styles
+ * =================================================================== */
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.profilepic {
+    height: 150px;
+    width: 100px;
+    border-radius: 30%;
+}
+
+.section-primary p {
+    text-align: justify;
+}
+
+.section-primary {
+    border: #1abc9c;
+}
+
+.section-colour {
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+.section-colour p {
+    text-align: justify;
+}
+
+.section-heading .lead, .section-heading h2 {
+    text-align: center;
+}
+
+.section-colour {
+    border: #fff;
+}
+
+.section-colour hr {
+    border-top: 5px solid #fff;
+ }
+
+
+
+/* 01. Timeline Styles
+ * =================================================================== */
+
+.timeline-icon .fa {
+    color: white;
+    margin: 14px;
+    font-size: 1.7em;
+}
+
+#skills {
+    background: #151515 url(https://plus.unsplash.com/premium_photo-1661882403999-46081e67c401?q=80&w=2029&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center;
+    height: auto;
+}
+
+
+/* 05. Footer
+ * =================================================================== */
+
+footer {
+    display: block;
+    position: static;
+    bottom: 0;
+    background-color: black;
+    color: #fff;
+    padding: 50px 0;
+
+}
+
+footer p {
+    padding: 15px;
+    opacity: 0.8;
+}
+
+
+/* EXTRAS
+ * =================================================================== */
+
+
+
+        /* Mouse Icon
+         * =================================================================== */
+        .mouse-icon {
+            border: 2px solid #fff;
+            border-radius: 16px;
+            display: block;
+            height: 50px;
+            margin: 100px auto;
+            position: absolute;
+            left: 0;
+            right: 0;
+            width: 30px;
+            z-index: 10;
+        }
+        .mouse-icon .scroll {
+            animation-delay: 0s;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-name: scrolling;
+            animation-play-state: running;
+            animation-timing-function: linear;
+        }
+        .mouse-icon .scroll {
+            background: #fff none repeat scroll 0 0;
+            border-radius: 10px;
+            height: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            top: 4px;
+            width: 4px;
+        }
+        @keyframes scrolling {
+        0% {
+            opacity: 0;
+            top: 5px;
+        }
+        30% {
+            opacity: 1;
+            top: 10px;
+        }
+        100% {
+            opacity: 0;
+            top: 25px;
+        }
+        }
+
+        .pad-xl {
+            padding: 200px 0px;
+        }
+
+        .pad-lg {
+            padding: 160px 0px;
+        }
+
+        .pad-sm {
+            padding: 80px 0px;
+        }
+
+        .pad-xs {
+            padding: 30px 0px;
+        }
+
+        /* /Mouse Icon
+         * =================================================================== */
+
+ 
+/* Media Queries
+ * =================================================================== */
+
+@media (max-width: 480px) {
+    .social a {
+        padding: 0.4em;
+        font-size: 0.9em;
+    }
+
+    .social-footer {
+        text-align: center;
+        position:block;
+        text-align: center;
+    }
+
+    .social-footer a {
+        padding: 0.3em;
+        font-size: 1.6em;
+
+    }
+
+    .intro-desc {
+        font-size: 0.7em;
+    }
+
+    .section-image span {
+        font-size: 1em;
+        padding: 0 1px;
+
+}
+
+    .intro h1 {
+        font-size: 50px;
+        padding-top: 15px;
+    }
+
+    footer {
+        text-align: center;
+        padding-bottom: 100px;
+    }
+
+    #skills {
+        background: #151515 url(https://images.unsplash.com/photo-1456983933114-c22026990f4b?dpr=2&auto=format&crop=entropy&fit=crop&w=1280&h=720&q=80) no-repeat center center;
+        background-position: top center;
+
+    }
+}
+
+@media (max-width: 991px) {
+    .social-footer {
+        text-align: center;
+    }
+
+    footer p {
+    text-align: center;
+    }
+
+}
+
+
+/**
+ * =================================================================== 
+ *
+ *  ResumeTemplate v1.0 Main ClearCareer
+ *  url: clearcareer.ca
+ *  06-27-2016
+ *  ------------------------------------------------------------------
+ * 
+ * Timeline Tempalte by Bruno Rodriguez
+ * 
+ * https://github.com/itbruno
+ * http://itbruno.com.br
+ * http://www.twitter.com/_brunoweb
+ * 
+ * =================================================================== 
+ */
+
+ header:after, #timeline .timeline-item:after, header:before, #timeline .timeline-item:before {
+  content: '';
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  background: #f9f9f9;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: helvetica, arial, tahoma, verdana;
+  line-height: 20px;
+  font-size: 14px;
+  color: #726f77;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Dosis", arial, tahoma, verdana;
+  font-weight: 500;
+}
+
+.project-name {
+  text-align: center;
+  padding: 10px 0;
+}
+
+header {
+  background: #1abc9c;
+  padding: 10px;
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+  -ms-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+}
+header .logo {
+  color: #1abc9c;
+  float: left;
+  font-family: "Dosis", arial, tahoma, verdana;
+  font-size: 22px;
+  font-weight: 500;
+}
+header .logo > span {
+  color: #f7aaaa;
+  font-weight: 300;
+}
+header .social {
+  float: right;
+}
+header .social .btn {
+  font-family: "Dosis";
+  font-size: 14px;
+  margin: 10px 5px;
+}
+
+
+.timelinedot {
+  margin: 13px;  
+  color:white;
+}
+
+
+#timeline {
+  width: 100%;
+  margin: 30px auto;
+  position: relative;
+  padding: 0 10px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#timeline:before {
+  content: "";
+  width: 3px;
+  height: 100%;
+  background: #1abc9c;
+  left: 50%;
+  top: 0;
+  position: absolute;
+}
+#timeline:after {
+  content: "";
+  clear: both;
+  display: table;
+  width: 100%;
+}
+#timeline .timeline-item {
+  margin-bottom: 50px;
+  position: relative;
+}
+#timeline .timeline-item .timeline-icon {
+  background: #1abc9c;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  overflow: hidden;
+  margin-left: -23px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+#timeline .timeline-item .timeline-icon svg {
+  position: relative;
+  top: 14px;
+  left: 14px;
+}
+#timeline .timeline-item .timeline-content {
+  width: 45%;
+  background: #fff;
+  padding: 20px;
+  -webkit-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#timeline .timeline-item .timeline-content h2 {
+  padding: 15px;
+  background: #1abc9c;
+  color: #fff;
+  margin: -20px -20px 0 -20px;
+  font-weight: 300;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  -ms-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+
+#timeline .timeline-item .timeline-content p {
+  padding-top: 15px;
+}
+
+#timeline .timeline-item .timeline-content:before {
+  content: '';
+  position: absolute;
+  left: 45%;
+  top: 20px;
+  width: 0;
+  height: 0;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 7px solid #1abc9c;
+}
+#timeline .timeline-item .timeline-content.right {
+  float: right;
+}
+#timeline .timeline-item .timeline-content.right:before {
+  content: '';
+  right: 45%;
+  left: inherit;
+  border-left: 0;
+  border-right: 7px solid #1abc9c;
+}
+
+
+@media screen and (max-width: 768px) {
+  #timeline {
+    margin: 30px;
+    padding: 0px;
+    width: 90%;
+  }
+  #timeline:before {
+    left: 0;
+  }
+  #timeline .timeline-item .timeline-content {
+    width: 90%;
+    float: right;
+  }
+  #timeline .timeline-item .timeline-content:before, #timeline .timeline-item .timeline-content.right:before {
+    left: 10%;
+    margin-left: -6px;
+    border-left: 0;
+    border-right: 7px solid #1abc9c;
+  }
+  #timeline .timeline-item .timeline-icon {
+    left: 0;
+  }
+}
+
+
+
+        </style>
+</head>
+
+<body>
+    <!-- INTRO SECTION -->
+
+
+    <section class="section-image">
+        <div class="img-overlay"></div>
+<div class="intro">
+                <div class="row">
+                    <div class="col-md-12">
+    
+                        <h1>Leena Sri Lingapuram</h1>
+
+
+                        <p class="intro-desc"><span>Undergraduate</span>
+                        <span class="colour-splash">•</span>
+                        <span>Tech-enthusiast</span> <span class=
+                        "colour-splash">•</span></p>
+                    </div>
+                    <!-- /col-md-12 -->
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="social">
+                             <a href=
+                            "http://www.instagram.com/leenasri" target=
+                            "_blank"><i class="fa fa-instagram fa-3x"></i></a> 
+                             <a href="https://www.linkedin.com/in/leena-sri-a80265259/"
+                            target="_blank"><i class=
+                            "fa fa-linkedin fa-3x"></i></a>
+                         <a href=
+                            "http://www.github.com/LeenasriL" target=
+                            "_blank"><i class="fa fa-github fa-3x"></i></a>
+                        </div><!-- /social -->
+                    </div><!-- /col-md-8 -->
+                </div><!-- /row -->
+                
+
+
+                <div class="bottom">
+                    <a href="#about">
+                    <div class="mouse-icon">
+                        <div class="scroll">
+                        </div>
+                    </div></a>
+                </div>
+            </div><!-- /intro -->
+    </section>
+    
+    
+    <!-- ABOUT SECTION -->
+    <section class="section-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+
+                    <h2>About Me</h2>
+
+                    <hr>
+                    <p class="lead">
+                        I'm an undergraduate engineering student with a deep passion for building intuitive, user-focused applications.<br><br>
+                        With a curiosity for how humans interact with technology, I enjoy working on projects that combine emotion, behavior, and logic—bringing empathy into code.<br><br>
+                        Whether it's AI-powered mood analysis or creative front-end design,<br>
+                        I aim to craft experiences that are not just functional but emotionally resonant.
+                    </p>
+                      
+                </div><!-- /col-md-6 -->
+            </div><!-- / row -->
+        </div><!-- /container -->
+    </section>
+    <!-- SKILLS SECTION -->
+
+
+    <section class="section-image" id="skills">
+        <div class="img-overlay"></div>
+
+
+        <div class="container">
+            <!-- Section Heading -->
+            <div class="row">
+                <div class="col-md-12 section-heading">
+                    <p class="lead">Here are a few cool things about me</p>
+                    <hr>
+                </div><!-- /section-heading -->
+            </div><!-- /row -->
+        
+            <!-- Projects and Skills Section -->
+            <div class="row">
+                <!-- Projects Column -->
+                <div class="col-md-4 text-center">
+                    <span class="lnr lnr-diamond"></span>
+                    <h2>Projects</h2>
+                    <p>
+                        Developed multiple web-based projects including:
+                        <ul>
+                            <li><strong>Melophily:</strong><br> An interactive website for exploring instrument sounds.</li>
+                            <li><strong>Shape Shifter Duel:</strong><br> A retro-style web game featuring dynamic ship transformations.</li>
+                            <li><strong>Color Changer:</strong> <br>A fun, reactive web app for real-time theme changes.</li>
+                            <li><strong>Floral Guide:</strong><br> A static site showcasing various flowers and their details.</li>
+                        </ul>
+                    </p>
+                </div><!-- /col-md-4 -->
+        
+                <!-- Skills Column -->
+                <div class="col-md-4 text-center">
+                    <span class="lnr lnr-code"></span>
+                    <h2>Skills</h2>
+                    <p>
+                        I'm proficient in a variety of programming languages and tools, including:
+                        <ul>
+                            <li><strong>Programming Languages:</strong><br> C, C++, Python, Java, JavaScript</li>
+                            <li><strong>Web Development:</strong> <br>HTML, CSS, JavaScript, React</li>
+                            <li><strong>Database Management:</strong><br> SQL, DBMS</li>
+                            <li><strong></strong><br>Algorithms, and Data Structures</li>
+                            <li><strong>Soft Skills:</strong><br> Teamwork, Communication, Problem-Solving, Leadership</li>
+                        </ul>
+                    </p>
+                </div><!-- /col-md-4 -->
+        
+                <!-- Events Column -->
+                <div class="col-md-4 text-center">
+                    <span class="lnr lnr-briefcase"></span>
+                    <h2>Events & Competitions</h2>
+                    <p>
+                        Participated in the following events and hackathons:
+                        <ul>
+                            <li><strong>Women's Day Coding Contest</strong>: <br>Participated from March 1 to March 7, received a certificate of appreciation from Blackbucks.</li>
+                            <li><strong>Codegoda 2023</strong>:<br> Participated in the hackathon organized by Agoda.</li>
+                            <li><strong>HACKLIPSE</strong>: <br>Participated in the hackathon organized by ACM Thapar Student Chapter on April 8-9, 2023, and received a certificate of appreciation.</li>
+                            </ul>
+                    </p>
+                </div><!-- /col-md-4 -->
+            </div><!-- /row -->
+        </div><!-- /container -->
+        
+        
+              
+    </section>
+    <!-- TIMELINE SECTION -->
+
+
+    <section class="section-primary" id="timelinesection">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 section-heading">
+                    <h2>Things I've done</h2>
+
+
+                    <p class="lead">Here are a few cool things about me</p>
+
+                    <hr class="white">
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Timeline -->
+
+
+                    <div id="timeline">
+                        <!-- Timeline Item, copy from here to create various boxes -->
+
+
+                        <div class="timeline-item">
+                            <!--Icon inside the circle-->
+
+
+                            <div class="timeline-icon">
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <!-- Content from timeline box and position (right or left)-->
+
+
+                            <div class="timeline-content right">
+                                <h2>2022</h2>
+                                Selected as one of the <strong>Top 100 submissions</strong> among 65,000 participants in the <em>Namma Yatri Open Mobility Challenge</em>.<br>
+                            </div>
+                        </div>
+                        <!-- /Timeline Item-->
+                        <!-- Timeline Item, copy from here to create various boxes -->
+
+
+                        <div class="timeline-item">
+                            <!--Icon inside the circle-->
+
+
+                            <div class="timeline-icon">
+                                <i class="fa fa-cog"></i>
+                            </div>
+                            <!-- Content from timeline box and position (right or left)-->
+
+
+                            <div class="timeline-content left">
+                                <h2>2023</h2>
+
+
+                                <p>Finalist at <em>GeekGoddess</em> by TechGig.<br></p>
+                            </div>
+                        </div>
+                        <!-- /Timeline Item-->
+                        <!-- Timeline Item, copy from here to create various boxes -->
+
+
+                        <div class="timeline-item">
+                            <!--Icon inside the circle-->
+
+
+                            <div class="timeline-icon">
+                                <i class="fa fa-plane"></i>
+                            </div>
+                            <!-- Content from timeline box and position (right or left)-->
+
+
+                            <div class="timeline-content right">
+                                <h2>2023</h2>
+                                <p>"My team, 'Crypto & IoT Conserve', proudly secured 2nd place at the prestigious AnantVirya 2023 competition, showcasing our innovation in integrating blockchain and IoT solutions."</p>
+                            </div>
+                        </div>
+                        <!-- /Timeline Item-->
+                        <!-- Timeline Item, copy from here to create various boxes -->
+
+
+                        <div class="timeline-item">
+                            <!--Icon inside the circle-->
+
+
+                            <div class="timeline-icon">
+                                <i class="fa fa-group"></i>
+                            </div>
+                            <!-- Content from timeline box and position (right or left)-->
+
+
+                            <div class="timeline-content left">
+                                <h2>Intern, Raise India Foundation (June–July 2023)</h2>
+
+
+                                <p>Developed and designed impactful education-focused content and digital campaigns aimed at enhancing rural outreach and empowering underserved communities with valuable resources.</p>
+                            </div>
+                        </div>
+                        <!-- /Timeline Item-->
+                        <!-- Timeline Item, copy from here to create various boxes -->
+
+
+                        <div class="timeline-item">
+                            <!--Icon inside the circle-->
+
+
+                            <div class="timeline-icon">
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <!-- Content from timeline box and position (right or left)-->
+
+
+                            <div class="timeline-content right">
+                               <h2> Microsoft Learn Student Ambassador (2023 – 2024)</h2><p>
+Spearheaded and facilitated coding workshops and technical sessions, empowering over 100 peers to enhance their programming and development skills while fostering a collaborative learning environment.
+                           </p> </div>
+                        </div>
+                        <!-- /Timeline Item-->
+                    </div>
+                    <!-- /col-md-12 -->
+                </div>
+                <!-- /row -->
+            </div>
+        </div> <!-- / container -->
+    </section>
+    <!-- FOOTER SECTION -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+
+               
+            </div><!-- /row -->
+        </div><!-- /container -->
+    </footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+    </script> 
+    <script>
+    window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+    </script> 
+    <script src="js/bootstrap.min.js">
+    </script> 
+    <script src="js/scripts.js">
+    </script>
+</body>
+</html>
